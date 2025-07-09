@@ -23,7 +23,7 @@ jobs:
         projectBaseDir: .
         args: >
           -Dsonar.organization=my-org
-          -Dsonar.projectKey=vcube136
+          -Dsonar.projectKey=vcube114
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
